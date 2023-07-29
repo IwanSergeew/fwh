@@ -14,7 +14,7 @@ export default () => {
     formData.append('xlsx', file);
 
     try {
-      const response = await fetch('/upload', {
+      const response = await fetch('/api/upload', {
         method: 'POST',
         body: formData,
       });

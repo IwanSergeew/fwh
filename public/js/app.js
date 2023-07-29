@@ -35192,7 +35192,7 @@ var App = () => {
         const formData = new FormData();
         formData.append('xlsx', file);
         try {
-            const response = await fetch('/upload', {
+            const response = await fetch('/api/upload', {
                 method: 'POST',
                 body: formData,
             });
