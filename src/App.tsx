@@ -14,7 +14,7 @@ export default () => {
     formData.append('xlsx', file);
 
     try {
-      const response = await fetch('/upload', {
+      const response = await fetch('http://87.120.253.100:3432/stuff/georgihours/hours', {
         method: 'POST',
         body: formData,
       });

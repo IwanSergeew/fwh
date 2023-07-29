@@ -8,8 +8,7 @@
   "author": "IwanSergeew",
   "license": "ISC",
   "scripts": {
-    "build": "npx rollup -c rollup.config.js",
-    "start": "node build/index.js"
+    "build": "npx rollup -c rollup.config.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.3",
