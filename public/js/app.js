@@ -35192,7 +35192,7 @@ var App = () => {
         const formData = new FormData();
         formData.append('xlsx', file);
         try {
-            const response = await fetch('http://87.120.253.100:3432/stuff/georgihours/hours', {
+            const response = await fetch('/upload', {
                 method: 'POST',
                 body: formData,
             });
